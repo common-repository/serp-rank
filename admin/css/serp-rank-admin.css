@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.serpr-error, .serpr-success{
+	font-size: 20px;
+	margin: 25px 0;
+	display: block;
+}
+.serpr-error{
+	color: #A71D31;
+}
+.serpr-success{
+	color: #685155;
+}
+
+
+/*.serpr-keys-list .compact-list{
+  padding: 5px 5px 5px 0px;
+  float: left;
+  width: 100%;
+}
+.serpr-keys-list .show-more {
+  display: none;
+  cursor: pointer;
+  text-decoration: underline;
+}*/
+.serpr-keys-list{
+  margin: 0;
+}
+.serpr-keys-list li{
+  margin-bottom: 0;
+}
+.serpr-search .exact{
+  float: right;
+  line-height: 2.2;
+  margin-right: 10px;
+}
